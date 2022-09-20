@@ -10,20 +10,13 @@ for (int i = 0; i < a.Length; i++)
     Console.WriteLine("введите строку");
     
     a[i] = Convert.ToString(Console.ReadLine());
-    
- }
-
-
-for (int i = 0; i < a.Length; i++)
- {
     if (a[i].Length <= 3)
     {
         b[c] = a[i];
         c+=1;
     }
-    
-    
  }
+
 Console.Write("[");
 for (int i = 0; i < a.Length; i++)
  {
